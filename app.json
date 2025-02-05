@@ -1,4 +1,7 @@
 {
   "name": "example",
-  "displayName": "StreamLayerReactDemo"
+  "displayName": "StreamLayerReactDemo",
+  "plugins": [
+    "react-native-theoplayer"
+  ]
 }

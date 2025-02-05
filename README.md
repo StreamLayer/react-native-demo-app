@@ -1,25 +1,59 @@
-# SL React Native SDK Example app
+# Welcome to your Expo app 👋
 
-## Getting started
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-Before the app building please create .env file in the root folder of this example with following data:
-```
-SDK_KEY=#<YOUR_KEY_HERE>#
-```
+## Get started
 
-### iOS
+1. Install dependencies
 
-Available commands:
+   ```bash
+   yarn
+   ```
+2. Install cocoapods
 
-```
-# Install all dependencies
-make full_rebuild_ios
+   ```bash
+    cd ios
+   ```
 
-# Run iOS app
-make run_ios
-```
+   ```bash
+    pod install
+   ```
+3. Create .env file and add required keys
 
-So, to start using the iOS example app:
-```
-make full_rebuild_ios && make run_ios
-```
+   ```bash
+      SL_SDK_API_KEY = "YOUR SDK KEY"
+      SL_BRANCH_API_KEY = "YOUR BRANCH KEY"
+   ```
+
+4. Start the app
+
+## Android
+
+### Run metro 
+
+   ```bash
+    yarn start
+   ```
+
+### press "a" to run on Android
+
+
+## iOS
+
+### Open Xcode
+
+   ```bash
+    xed -b ios
+   ```
+### Run metro 
+
+   ```bash
+    yarn start
+   ```
+### Run project in Xcode 
+
+
+
+
+
+
