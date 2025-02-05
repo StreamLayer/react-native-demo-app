@@ -1,0 +1,15 @@
+{
+  "originHash" : "731293e486d4354dcc30d91364064415a8aae1a6dc2de1029c2cc9979122acd2",
+  "pins" : [
+    {
+      "identity" : "swift-package-manager-google-programmatic-access-library-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/googleads/swift-package-manager-google-programmatic-access-library-ios",
+      "state" : {
+        "revision" : "82856c401fb8046428d517f04f8980fb443d605e",
+        "version" : "2.8.1"
+      }
+    }
+  ],
+  "version" : 3
+}
